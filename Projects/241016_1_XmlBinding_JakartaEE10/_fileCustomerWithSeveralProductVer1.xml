@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<c4CustomerWithSeveralProductVer1 id="100">
+    <age>33</age>
+    <name>Pepe Gotera</name>
+    <product codigo="PIL001">
+        <name>Pilota Fubtol</name>
+    </product>
+    <product codigo="PIL002">
+        <name>Pilota Bàsquet</name>
+    </product>
+    <product codigo="PIL003">
+        <name>Pilota Volei</name>
+    </product>
+</c4CustomerWithSeveralProductVer1>

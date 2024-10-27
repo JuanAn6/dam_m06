@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library name="...">
+    <counter>...</counter>
+    <cards>
+        <bookCard reference="r1.." order="..." isbn="...">
+            <title>...</title>
+            <isLent>...</isLent>                  
+            <creationDate>...</creationDate>          
+            <editorial>...</editorial>            
+        </bookCard> 
+        <magazinCard reference="r2.." order="..." year="..." num="...">
+            <title>...</title>
+            <creationDate>...</creationDate>          
+            <modificationDate>...</modificationDate>
+        </magazinCard> 
+    </cards>
+</library>
+
+<!-- Observacions de format:
+- Dates en format yyyy-mm-dd hh:mm:ss.milèssimesDeSegon
+- Booleans amb valor Y o N
+- referencia sempre començarà amb "r"
+-->

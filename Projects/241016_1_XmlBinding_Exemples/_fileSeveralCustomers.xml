@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<customers>
+  <customer codi="100">
+    <name>Nom del customer 0</name>
+    <edat>30</edat>
+  </customer>
+  <customer codi="101">
+    <name>Nom del customer 1</name>
+    <edat>31</edat>
+  </customer>
+  <customer codi="102">
+    <name>Nom del customer 2</name>
+    <edat>32</edat>
+  </customer>
+  <customer codi="103">
+    <name>Nom del customer 3</name>
+    <edat>33</edat>
+  </customer>
+  <customer codi="104">
+    <name>Nom del customer 4</name>
+    <edat>34</edat>
+  </customer>
+  <customer codi="105">
+    <name>Nom del customer 5</name>
+    <edat>35</edat>
+  </customer>
+  <customer codi="106">
+    <name>Nom del customer 6</name>
+    <edat>36</edat>
+  </customer>
+  <customer codi="107">
+    <name>Nom del customer 7</name>
+    <edat>37</edat>
+  </customer>
+  <customer codi="108">
+    <name>Nom del customer 8</name>
+    <edat>38</edat>
+  </customer>
+  <customer codi="109">
+    <name>Nom del customer 9</name>
+    <edat>39</edat>
+  </customer>
+</customers>

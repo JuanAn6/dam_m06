@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT library (counter,cards)>
+<!ATTLIST library
+    name CDATA #REQUIRED
+>
+<!ELEMENT counter (#PCDATA)>
+<!ELEMENT cards (bookCard|magazinCard)*>
+<!ELEMENT bookCard (title,isLent?,creationDate,modificationDate?,editorial?)>
+<!ATTLIST bookCard
+    reference ID #REQUIRED
+    order CDATA #REQUIRED
+    isbn CDATA #REQUIRED
+>
+<!ELEMENT magazinCard (title,isLent?,creationDate,modificationDate?)>
+<!ATTLIST magazinCard
+    reference ID #REQUIRED
+    order CDATA #REQUIRED
+    year CDATA #REQUIRED
+    num CDATA #REQUIRED
+  >
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT isLent (#PCDATA)>
+<!ELEMENT creationDate (#PCDATA)>
+<!ELEMENT modificationDate (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+
+<!-- Observacions de format:
+- Dates en format yyyy-mm-dd hh:mm:ss.milèssimesDeSegon
+- Booleans amb valor Y o N
+- referencia sempre començarà amb "r"
+-->

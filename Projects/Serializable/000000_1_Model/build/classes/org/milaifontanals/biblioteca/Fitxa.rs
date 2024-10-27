@@ -1,0 +1,3 @@
+org.milaifontanals.biblioteca.Fitxa
+org.milaifontanals.biblioteca.ReferenceAdapter
+org.milaifontanals.biblioteca.DateAdapter

@@ -1,0 +1,3 @@
+org.milaifontanals.binding.IdCustomerAdapter
+org.milaifontanals.binding.DateAdapter
+org.milaifontanals.binding.C7CustomerAmbConversionsEspecialsVer2

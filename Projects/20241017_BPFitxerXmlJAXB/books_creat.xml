@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE library SYSTEM "./library.dtd">
+<library name="Juan">
+    <counter>3</counter>
+    <cards>
+        <magazinCard year="2000" num="15" order="2" reference="r1111111111">
+            <title>Tiempo</title>
+            <creationDate>23/10/2024 15:36:34.684</creationDate>
+        </magazinCard>
+        <bookCard isbn="" order="1" reference="r2222222222">
+            <title>El Quixot</title>
+            <creationDate>23/10/2024 15:36:34.683</creationDate>
+        </bookCard>
+        <magazinCard year="2010" num="3" order="3" reference="r3333333333">
+            <title>Mundo Científico</title>
+            <creationDate>23/10/2024 15:36:34.684</creationDate>
+        </magazinCard>
+    </cards>
+</library>

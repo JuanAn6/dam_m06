@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE flotes SYSTEM "FleetListPersistence.dtd">
+<flotes>
+  <flota nom="Autobusos Gotera">
+    <autobus identificadorBastidor="IB-12345678901234561" ecologic="No">
+      <potenciaFiscal>20.5</potenciaFiscal>
+      <matricula>1111BBB</matricula>
+      <dataMatricula>2010-12-25</dataMatricula>
+      <places>55</places>
+    </autobus>
+    <taxi identificadorBastidor="IB-12345678901234562" ecologic="Si">
+      <potenciaFiscal>13.5</potenciaFiscal>
+      <matricula>2222CCC</matricula>
+      <dataMatricula>2012-11-24</dataMatricula>
+      <llicencia>ARG123</llicencia>
+    </taxi>
+    <autobus identificadorBastidor="IB-12345678901234563" ecologic="Si">
+      <potenciaFiscal>22.5</potenciaFiscal>
+      <places>70</places>
+    </autobus>
+    <taxi identificadorBastidor="IB-12345678901234564" ecologic="No">
+      <potenciaFiscal>15.9</potenciaFiscal>
+      <llicencia>QTE123</llicencia>
+    </taxi>
+  </flota>
+  <flota nom="Busos Averiats" />
+  <flota nom="Mortadelo Busos">
+    <autobus identificadorBastidor="IB-32345678901234561" ecologic="No">
+      <potenciaFiscal>20.5</potenciaFiscal>
+      <matricula>1111ZZZ</matricula>
+      <dataMatricula>2010-12-25</dataMatricula>
+      <places>55</places>
+    </autobus>
+    <taxi identificadorBastidor="IB-32345678901234562" ecologic="Si">
+      <potenciaFiscal>13.5</potenciaFiscal>
+      <matricula>2222YYY</matricula>
+      <dataMatricula>2012-11-24</dataMatricula>
+      <llicencia>ARG123</llicencia>
+    </taxi>
+    <autobus identificadorBastidor="IB-32345678901234563" ecologic="Si">
+      <potenciaFiscal>22.5</potenciaFiscal>
+      <places>70</places>
+    </autobus>
+    <taxi identificadorBastidor="IB-32345678901234564" ecologic="No">
+      <potenciaFiscal>15.9</potenciaFiscal>
+      <llicencia>QTE123</llicencia>
+    </taxi>
+  </flota>
+</flotes>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<c3CustomerWithOneProduct id="100">
+    <age>33</age>
+    <name>Pepe Gotera</name>
+    <product codigo="PIL001">
+        <name>Pilota Fubtol</name>
+    </product>
+</c3CustomerWithOneProduct>

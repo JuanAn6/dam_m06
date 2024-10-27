@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1727284285 source:c:\dam2\m06\projects\readlittleindianc\main.c
+	<stdio.h>
+	<stdlib.h>
+

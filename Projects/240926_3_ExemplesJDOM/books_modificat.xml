@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<bookstore param="hao">
+  <book category="COOKING">
+    <title>Everyday Italian</title>
+    <author sex="?">Giada De Laurentiis</author>
+    <price>30.6</price>
+    <editorial />
+  </book>
+  <book category="CHILDREN">
+    <title>Harry Potter</title>
+    <author sex="?">J K. Rowling</author>
+    <price>30.59</price>
+    <editorial />
+  </book>
+  <book category="WEB">
+    <title>XQuery Kick Start</title>
+    <author sex="?">James McGovern</author>
+    <author sex="?">Per Bothner</author>
+    <author sex="?">Kurt Cagle</author>
+    <author sex="?">James Linn</author>
+    <author sex="?">Vaidyanathan Nagarajan</author>
+    <price>50.99</price>
+    <editorial />
+  </book>
+  <book category="WEB" cover="paperback">
+    <title>Learning XML</title>
+    <author sex="?">Erik T. Ray</author>
+    <price>40.75</price>
+    <editorial />
+  </book>
+</bookstore>

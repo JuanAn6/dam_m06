@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT flotes (flota)*>
+<!ELEMENT flota (autobus|taxi)*>
+<!ATTLIST flota
+  nom CDATA #REQUIRED>
+<!ELEMENT autobus (potenciaFiscal,matricula?,dataMatricula?,places)*>
+<!ATTLIST autobus
+ identificadorBastidor ID #REQUIRED
+ ecologic CDATA #REQUIRED>
+<!ELEMENT taxi (potenciaFiscal,matricula?,dataMatricula?,llicencia)*>
+<!ATTLIST taxi
+ identificadorBastidor ID #REQUIRED
+ ecologic CDATA #REQUIRED>
+<!ELEMENT potenciaFiscal (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT dataMatricula (#PCDATA)>
+<!ELEMENT places (#PCDATA)>
+<!ELEMENT llicencia (#PCDATA)>
+
+<!-- Requeriments addicionals:
+Atribut identificadorBastidor amb prefix "IB-"
+Dates en format yyyy/mm/dd
+Atribut ecologic amb valors "Si","No"
+-->
